@@ -1,0 +1,534 @@
+body {
+	margin: 0;
+}
+
+main {
+	width: 100%;
+}
+
+header {
+	width: 100%;
+	height: 100px;
+	position: relative;
+}
+
+.logo {
+	width: 150px;
+	height: 80px;
+	position: relative;
+	background-image: url(image/logo.jpg);
+	background-size: contain;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 5%;
+	display: inline-block;
+	border-radius: 80px 80px;
+}
+
+.descr{
+    display:none;
+    margin-left:120px;
+    padding:10px;
+    background: whitesmoke;
+    height:500px;
+    box-shadow:0 5px 5px rgba(0,0,0,0.3);
+}
+.logo:hover .descr{
+    display:block;
+    position:absolute;
+    top: 40px;
+    z-index:9999;
+    width:400px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+}
+
+.menuNav a {
+	padding-left: 5px;
+}
+
+.menuNav a:hover {
+	font-size: 22px;
+	opacity: 0.7;
+}
+
+.menu {
+	width: 200px;
+	height: 50px;
+	display: inline-block;
+	margin-left: 60%;
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+}
+
+.advertising {
+	padding-top: 10px;
+	width: 100%;
+	height: 400px;
+	margin: 0;
+	background-image: url(image/2.jpg);
+	/*background-size: contain;*/
+	background-repeat: no-repeat;
+	border-radius: 40px;
+	filter: brightness(80%);
+}
+
+.textCar p {
+	color: white;
+	font-size: 24px;
+	padding-top: 20px;
+	padding-right: 20%;
+	padding-left: 20%;
+}
+
+
+.feraCenter {
+	width: 800px;
+	margin: auto;
+}
+
+.specifications {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: stretch;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	flex-wrap: wrap;
+}
+
+.specifications a {
+	text-decoration: none;
+	color: black;
+}
+
+hr {
+	margin-left: 10%;
+	margin-right: 10%;
+	border: 2px solid blue;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.motor {
+	width: 150px;
+	height: 100px;
+	background-image: url(image/motor.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border: 1px solid blue;
+}
+
+.hodovka {
+	width: 150px;
+	height: 100px;
+	background-image: url(image/hod.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border: 1px solid blue;
+	margin-left: 70px;
+}
+
+.population {
+	width: 150px;
+	height: 100px;
+	background-image: url(image/ferLogo.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border: 1px solid blue;
+	margin-left: 70px;
+}
+
+.feature {
+	width: 150px;
+	height: 100px;
+	background-image: url(image/feraa.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border: 1px solid blue;
+	margin-left: 70px;
+
+}
+
+.knopkaNazad{
+	width: 120px;
+	height: 30px;
+	margin: auto;
+	background-color: #D3D3D3;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.knopkaNazad p{
+	padding-top: 4px;
+	text-align: center;
+}
+
+
+.knopkaNaz a{
+	text-decoration: none;
+	color: black;
+}
+
+.knopkaNazad:hover {
+	opacity: 0.7;
+	background-color: gray;
+}
+
+.kostil {
+	width: 100%;
+}
+
+.text{
+	width: 150px;
+	margin-top: 7px;
+	margin-left: 70px;
+}
+
+.motorText {
+	margin-top: 5%;
+	width: 100%;
+	height: 450px;
+	background-image: url(image/feraMotor.jpg);
+	background-repeat: no-repeat;
+	border-radius: 450px;
+	/*opacity: 0.7;*/
+	filter: brightness(80%);
+	/*background-size: contain;*/
+}
+
+.motorText p {
+	color: white;
+	font-size: 24px;
+	padding-top: 2%;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.hodovkaText {
+	margin-top: 5%;
+	width: 100%;
+	height: 450px;
+	background-image: url(image/hodovkaText.jpg);
+	background-repeat: no-repeat;
+	/*opacity: 0.7;*/
+	filter: brightness(80%);
+	border-radius: 450px;
+	/*background-size: contain;*/
+}
+
+.hodovkaText p {
+	color: white;
+	font-size: 24px;
+	padding-top: 2%;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.brendText {
+	margin-top: 5%;
+	width: 100%;
+	height: 400px;
+	background-image: url(image/brendText.jpg);
+	border-radius: 450px;
+	/*background-repeat: no-repeat;*/
+	/*opacity: 0.7;*/
+	filter: brightness(80%);
+	/*background-size: contain;*/
+}
+
+.brendText p {
+	color: white;
+	font-size: 18px;
+	padding-top: 2%;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.popularText {
+	margin-top: 5%;
+	width: 100%;
+	height: 550px;
+	background-image: url(image/popular.jpg);
+	background-repeat: no-repeat;
+	border-radius: 450px;
+	/*opacity: 0.7;*/
+	filter: brightness(90%);
+
+}
+
+.popularText p {
+	color: white;
+	font-size: 23px;
+	padding-top: 2%;
+	padding-left: 20%;
+	padding-right: 15%;
+}
+
+.gonka{
+	width: 80%;
+	margin: auto;
+	margin-top: 5%; 
+	margin-bottom: 5%;
+}
+
+video {
+	width: 1400px;
+	padding-left: 7%;
+}
+
+.gonka p { 
+	text-align: center;
+	font-size: 32px;
+}
+
+.gonka hr {
+	border: solid gray;
+}
+
+
+/*.knopka {
+	padding-top: 30px;
+	padding-left: 20px;
+}*/
+
+.map {
+	margin-bottom: 10%;
+}
+
+.map p {
+	text-align: center;
+	font-size: 28px;
+}
+
+.map hr {
+	margin-left: 20%;
+	margin-right: 20%;
+	border: 2px solid red;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.maps {
+	margin-left: 180px;
+	padding-bottom: 100px;
+}
+
+.konfigurator {
+	background-color: whitesmoke;
+	padding-left: 10px;
+	padding-bottom: 10px; 
+	width: 600px;
+	margin: auto;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.tot{
+	background-color: whitesmoke;
+	width: 620px;
+	height: 60px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	margin: auto;
+	margin-top: 60px;
+}
+
+#total {
+	margin-top: 10px;
+	margin-left: 220px;
+	height: 30px;
+}
+
+footer {
+	margin-top: 80px;
+	width: 100%;
+	height: 100px;
+	background-color: whitesmoke;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.vk{
+	background-image: url(image/vkontakte.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 20px;
+	width: 60px;
+	height: 60px;
+	margin-right: 40px;
+	border-radius: 50%;
+}
+
+.odn{
+	background-image: url(image/odn.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 20px;
+	margin-right: 20px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+
+.fbook{
+	background-image: url(image/fbook.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 20px;
+	margin-right: 20px;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+
+.ferrari{
+	background-image: url(image/ferraryText.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 90px;
+	margin-right: 1360px;: 
+}
+
+
+/*----------------------------------------АЙФОН 5-S, SE, 6+ и тд.------------------------------------------------*/
+
+
+
+@media screen and (max-width: 500px){
+.header {
+	width: 320px;
+}
+
+.advertising {
+	width: 320px;
+	margin: auto;
+	}
+
+.motorText {
+	width: 100%;
+	height: 720px;
+	background-image: url(image/mediaMotorText.jpg);
+	padding-top: 10px;
+}
+
+.hodovkaText{
+	height: 700px;
+	background-image: url(image/mediaHodText.jpg);
+	padding-top: 10px;
+}
+
+.brendText {
+	height: 700px;
+	padding-top: 10px;
+}
+
+
+.popularText{
+	height: 700px;
+	padding-top: 10px;
+		
+}
+
+.popularText p {
+		font-size: 20px;
+}
+
+.gonka{
+	width: 320px;
+}
+
+.maps p{
+	font-size: 16px;
+}
+
+.adapt p{
+	font-size: 10px;
+}
+
+}
+
+/*---------------------------------------ДЛЯ МОЕГО НОУТА------------------------------------------------*/
+
+@media screen and (max-width: 1550px){
+.header{
+	width: 1000px;
+	}
+
+.advertising {
+	width: 1000px;
+}
+
+.motorText {
+	width: 100%;
+	height: 720px;
+	background-image: url(image/mediaMotorText.jpg);
+	padding-top: 10px;
+	border-radius: 200px;
+}
+
+.hodovkaText{
+	height: 700px;
+	background-image: url(image/mediaHodText.jpg);
+	padding-top: 10px;
+	border-radius: 200px;
+}
+
+.brendText {
+	height: 700px;
+	padding-top: 15px;
+	border-radius: 200px;
+}
+.popularText{
+	height: 900px;
+	padding-top: 10px;
+	background-image: url(image/media900.jpg);
+	border-radius: 200px;
+}
+
+.gonka {
+	width: 1000px;
+}
+
+.gonka p{
+	font-size: 24px;
+}
+
+video {
+	width: 600px;  
+	margin-left: 75px; 
+}
+
+.map p {
+	font-size: 10px;
+}
+
+.adapt p{
+	font-size: 16px;
+}
+
+.map hr {
+	margin-left: 20%;
+	margin-right: 20%;
+	border: 2px solid red;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+iframe {
+	width: 600px;
+}
+
+.ferrari {
+	margin-right: 500px;
+}
+}
